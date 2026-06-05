@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    background-color: #fbeee0;
+}
+
+#myBakery {
+    width: 100%;
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    color: #d55b3d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+
+.images_section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.heading_h2{
+    color: #d55b3d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px; 
+}
+
+
+.pictures_section{
+    margin: 40px;   
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffbdb0;
+    width: 350px;
+    height: 580px;
+    margin: 20px;
+
+}
+.item_NAME{
+    color: #d55b3d;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    background-color:#fbeee0 ;
+    color: #7c7575;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+del{
+    font-size: 20px;
+    color: #52616b;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    
+}
+
+ins{
+   display: inline-block;
+   transform: rotate(-7deg);
+   font-size: 20px;
+   color: #52616b;
+   font-family: 'Montserrat', sans-serif;
+   text-decoration: none;
+    
+}
+
+.price{
+  font-size: 20px;
+  color: #52616b;
+  font-family: 'Montserrat', sans-serif;
+    
+}
+
+.footer{
+   display: flex;
+   justify-content: center; 
+}
+
+@media all and (max-width:800px){
+    .wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        width: 90%;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading_h2, .heading {
+        font-size: 15px;
+    }
+
+}
